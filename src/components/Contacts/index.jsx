@@ -65,7 +65,7 @@ class Contacts extends Component {
                   <input className="searchInput"
                     type="text" value={this.state.value} onChange={this.handleChange} placeholder="Buscar..." />
                 </label>
-                <input className="searchButton" type="submit" value="clicks" />
+                <input className="searchButton" type="submit" value="Buscar" />
               </form>
               {this.state.contact}
               <Options/>
